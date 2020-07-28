@@ -13,7 +13,9 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
+        videoDescription={`Emicida - DVD "10 anos de Triunfo" – Ooorra (Ao vivo)
+
+        Ooorra (Ao Vivo) "DVD 10 anos de Triunfo” ao vivo, gravado dia 20/11/17 na Audio em São Paulo.`}
       />
 
       <Carousel
@@ -35,11 +37,7 @@ function App() {
 
       <Carousel
         category={dadosIniciais.categorias[4]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />      
+      />       
 
       <Footer />
     </div>
