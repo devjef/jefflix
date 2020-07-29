@@ -15,6 +15,3 @@ Após baixar o projeto, acesse ele via seu terminal rode os comandos:
 npm install
 npm start
 ```
-
-## License/Licença do Projeto
-[MIT License](./LICENSE) © [Alura](http://alura.com.br/)
