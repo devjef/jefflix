@@ -14,6 +14,12 @@ function Footer() {
           Imersão React da Alura
         </a>
       </p>
+      <p>
+        {' '}
+        <a href="https://github.com/devjef/jefflix">
+        Github
+        </a>
+      </p>
     </FooterBase>
   );
 }
