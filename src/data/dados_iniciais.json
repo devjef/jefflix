@@ -1,14 +1,44 @@
 {
   "categorias": [
     {
+      "titulo": "Jogos",
+      "cor": "#00C86F",
+      "videos": [
+        {
+          "titulo": "Episode 1: IGNITION // Official Launch Gameplay Trailer - VALORANT",
+          "url": "https://www.youtube.com/watch?v=IhhjcB2ZjIM"
+        },
+        {
+          "titulo": "VALORANT : 15 MINUTES OF 200 IQ PLAYS",
+          "url": "https://www.youtube.com/watch?v=JM1h4CL61UA"
+        },
+        {
+          "titulo": "REACT: Assassin’s Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=C3fPwidGWcs"
+        },
+        {
+          "titulo": "ISSO é VALORANT BEM JOGADO!!",
+          "url": "https://www.youtube.com/watch?v=M-asd1MlxDg"
+        },
+        {
+          "titulo": "Jogo INCRÍVEL de Exploração Espacial | Outer Wilds Gameplay",
+          "url": "https://www.youtube.com/watch?v=pZh-33ksWUY"
+        },
+        {
+          "titulo": "NOVO Jogo que está BOMBANDO e é INCRÍVEL - Temtem",
+          "url": "https://www.youtube.com/watch?v=uKTUkeGBA9c"
+        },
+        {
+          "titulo": "A DIREÇÃO DE ARTE DESSE JOGO É INCRÍVEL!? - HOLLOW KNIGHT GAMEPLAY!",
+          "url": "https://www.youtube.com/watch?v=8gyg9ffRKg8"
+        }
+      ]
+    },
+    {
       "titulo": "Músicas",
       "link": "",
       "cor": "#2A7AE4",
       "videos": [
-        {
-          "titulo": "Emicida - 10 anos de Triunfo - Ooorra (Ao Vivo)",
-          "url": "https://www.youtube.com/watch?v=p9JHGj_AhVE"
-        },
         {
           "titulo": "Emicida - Pantera Negra (Clipe Oficial)",
           "url": "https://www.youtube.com/watch?v=Xi1BfosGv2E"
@@ -39,36 +69,7 @@
         }     
       ]
     },
-    {
-      "titulo": "Jogos",
-      "cor": "#00C86F",
-      "videos": [
-        {
-          "titulo": "REACT: Assassin’s Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=C3fPwidGWcs"
-        },
-        {
-          "titulo": "ISSO é VALORANT BEM JOGADO!!",
-          "url": "https://www.youtube.com/watch?v=M-asd1MlxDg"
-        },
-        {
-          "titulo": "Jogo INCRÍVEL de Exploração Espacial | Outer Wilds Gameplay",
-          "url": "https://www.youtube.com/watch?v=pZh-33ksWUY"
-        },
-        {
-          "titulo": "NOVO Jogo que está BOMBANDO e é INCRÍVEL - Temtem",
-          "url": "https://www.youtube.com/watch?v=uKTUkeGBA9c"
-        },
-        {
-          "titulo": "A DIREÇÃO DE ARTE DESSE JOGO É INCRÍVEL!? - HOLLOW KNIGHT GAMEPLAY!",
-          "url": "https://www.youtube.com/watch?v=8gyg9ffRKg8"
-        },
-        {
-          "titulo": "VALORANT : 15 MINUTES OF 200 IQ PLAYS",
-          "url": "https://www.youtube.com/watch?v=JM1h4CL61UA"
-        }
-      ]
-    },
+    
     {
       "titulo": "Vídeos",
       "cor": "#9cd33b",
