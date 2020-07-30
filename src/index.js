@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './reset.css';
 import Home from './pages/Home';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import CadastraVideo from './pages/cadastro/Video'
+import CadastroVideo from './pages/cadastro/Video';
+import CadastroCategoria from './pages/cadastro/Categoria'
+import PaginaDeErro from './pages/Erro'
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Home} exact />
-      <Route path="/cadastra/video" component={CadastraVideo} />
-      <Route component={() => (<div>Página 404</div>)} />
+      <Route path="/cadastro/video" component={CadastroVideo} />
+      <Route path="/cadastro/categoria" component={CadastroCategoria} />
+      <Route component={PaginaDeErro} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')

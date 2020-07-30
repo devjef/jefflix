@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import Logo from '../../assets/img/logo.png'
 import './Menu.css';
 import Button from '../Button'
+// import ButtonLink from './components/ButtonLink';
 
 function Menu() {
     return ( 
@@ -11,7 +12,7 @@ function Menu() {
                 <img className="Logo" src={Logo} alt="Jeflix logo"/>
             </Link>
 
-            <Button as={Link} className="ButtonLink" to="/cadastra/video ">
+            <Button as={Link} className="ButtonLink" to="/cadastro/video">
                 Novo Vídeo
             </Button>
         </nav>
