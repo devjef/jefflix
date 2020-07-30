@@ -1,7 +1,11 @@
 .img-erro {
-    width: 600px;
+    max-width: 500px;
     margin: 50px auto;
     display: flex;
-    ;
+    }
+    @media (max-width: 800px) {
+    .img-erro {
+        max-width: 250px;
+    }
 }
 
