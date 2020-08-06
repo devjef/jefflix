@@ -1,16 +1,236 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Front End",
-            "descricao": "Uma categoria bacanudassa",
-            "cor": "#6bd1ff"
-        },
-        {
-            "id": 2,
-            "nome": "Back End",
-            "descricao": "Outra categoria bacanudassa",
-            "cor": "#6bd1ff"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Jogos",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Músicas",
+      "cor": "#2A7AE4",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Vídeos",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Séries",
+      "cor": "red"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Episode 1: IGNITION // Official Launch Gameplay Trailer - VALORANT",
+      "url": "https://www.youtube.com/watch?v=IhhjcB2ZjIM"
+    },
+    {
+      "titulo": "Temtem (Pokemon-Like MMO) - Official Gameplay Trailer",
+      "url": "https://www.youtube.com/watch?v=Csx5aK5mZCI&t=20s",
+      "categoriaId": 1,
+      "id": 2
+    },
+    {
+      "titulo": "Outer Wilds - Official Reveal Trailer",
+      "url": "https://www.youtube.com/watch?v=d6LGnVCL1_A",
+      "categoriaId": 1,
+      "id": 3
+    },
+    {
+      "titulo": "Bioshock Infinite Official Trailer [HD]",
+      "url": "https://www.youtube.com/watch?v=EsJ55BzIvkE",
+      "categoriaId": 1,
+      "id": 4
+    },
+    {
+      "titulo": "Hollow Knight - Release Trailer",
+      "url": "https://www.youtube.com/watch?v=UAO2urG23S4",
+      "categoriaId": 1,
+      "id": 5
+    },
+    {
+      "titulo": "Paladins - Be More Than a Hero - Official Trailer",
+      "url": "https://www.youtube.com/watch?v=dEwEC2MKgeQ",
+      "categoriaId": 1,
+      "id": 6
+    },
+    {
+      "titulo": "Hearthstone: Heroes of Warcraft — Trailer Cinemático",
+      "url": "https://www.youtube.com/watch?v=SCq4WmfRPyg",
+      "categoriaId": 1,
+      "id": 7
+    },
+    {
+      "titulo": "Mafia 2: Definitive Edition - Official Trailer",
+      "url": "https://www.youtube.com/watch?v=vDdLd9FuuI0",
+      "categoriaId": 1,
+      "id": 8
+    },
+    {
+      "titulo": "Northgard Official Release Trailer",
+      "url": "https://www.youtube.com/watch?v=mDN8PHOYnKc",
+      "categoriaId": 1,
+      "id": 9
+    },
+    {
+      "titulo": "The Elder Scrolls V: Skyrim - Official Trailer",
+      "url": "https://www.youtube.com/watch?v=JSRtYpNRoN0",
+      "categoriaId": 1,
+      "id": 10
+    },
+    {
+      "titulo": "Stardew Valley Trailer",
+      "url": "https://www.youtube.com/watch?v=ot7uXNQskhs",
+      "categoriaId": 1,
+      "id": 11
+    },
+    {
+      "titulo": "Emicida - 10 anos de Triunfo - Ooorra (Ao Vivo)",
+      "url": "https://www.youtube.com/watch?v=p9JHGj_AhVE",
+      "categoriaId": 2,
+      "id": 12
+    },
+    {
+      "titulo": "Rashid - Não é Desenho",
+      "url": "https://www.youtube.com/watch?v=I9zspm9R0Io",
+      "categoriaId": 2,
+      "id": 13
+    },
+    {
+      "titulo": "Racionais Mc's - A Vida é Desafio",
+      "url": "https://www.youtube.com/watch?v=52NT9cSWC_8",
+      "categoriaId": 2,
+      "id": 14
+    },
+    {
+      "titulo": "Tim Maia – Bom Senso (Official Audio)",
+      "url": "https://www.youtube.com/watch?v=NdqM_oFRbz4",
+      "categoriaId": 2,
+      "id": 15
+    },
+    {
+      "titulo": "6. Djonga - Hoje Não",
+      "url": "https://youtu.be/qxXr2CYjHl8",
+      "categoriaId": 2,
+      "id": 16
+    },
+    {
+      "titulo": "Como não desanimar diante de grandes desafios? | Monja Coen | Zen Budismo",
+      "url": "https://www.youtube.com/watch?v=ojNkMDNQYNM",
+      "categoriaId": 2,
+      "id": 17
+    },
+    {
+      "titulo": "Como não desanimar diante de grandes desafios? | Monja Coen | Zen Budismo",
+      "url": "https://www.youtube.com/watch?v=ojNkMDNQYNM",
+      "categoriaId": 3,
+      "id": 18
+    },
+    {
+      "titulo": "Programadores Altamente Eficazes: 7 Hábitos",
+      "url": "https://www.youtube.com/watch?v=cJx0k_ln1-g",
+      "categoriaId": 3,
+      "id": 19
+    },
+    {
+      "titulo": "HACKEARAM O SEU CÉREBRO",
+      "url": "https://www.youtube.com/watch?v=_hobgOFDekg",
+      "categoriaId": 3,
+      "id": 20
+    },
+    {
+      "titulo": "A religião das máquinas",
+      "url": "https://www.youtube.com/watch?v=6Dy6pYdOns4&t",
+      "categoriaId": 3,
+      "id": 21
+    },
+    {
+      "titulo": "Por que a nossa geração se cobra tanto? | ludoresponde #6",
+      "url": "https://www.youtube.com/watch?v=UWxP-ML7AeA&t=194s",
+      "categoriaId": 3,
+      "id": 23
+    },
+    {
+      "titulo": "DREAM BUILD GRAVEL BIKE - Open WI.DE",
+      "url": "https://www.youtube.com/watch?v=IRipnVvnaIg",
+      "categoriaId": 3,
+      "id": 24
+    },
+    {
+      "titulo": "Man of Medan - Cuidado com o Mano do Medão",
+      "url": "https://www.youtube.com/watch?v=IraMCXlOQlM",
+      "categoriaId": 3,
+      "id": 25
+    },
+    {
+      "titulo": "Breaking Bad Trailer (First Season)",
+      "url": "https://www.youtube.com/watch?v=HhesaQXLuRY&t",
+      "categoriaId": 4,
+      "id": 26
+    },
+    {
+      "titulo": "Lost Trailer (First Season)",
+      "url": "https://www.youtube.com/watch?v=KTu8iDynwNc",
+      "categoriaId": 4,
+      "id": 27
+    },
+    {
+      "titulo": "Attack On Titan (Season 1) - (Full Trailer) HD",
+      "url": "https://www.youtube.com/watch?v=6scZ1qj2w38",
+      "categoriaId": 4,
+      "id": 28
+    },
+    {
+      "titulo": "MINDHUNTER Trailer SEASON 1 (2017) Netflix Series",
+      "url": "https://www.youtube.com/watch?v=oFlKiTwhd38",
+      "categoriaId": 4,
+      "id": 29
+    },
+    {
+      "titulo": "Brooklyn Nine-Nine - 'All-Action' Official Trailer (2019)",
+      "url": "https://www.youtube.com/watch?v=l94tBy1XwbY",
+      "categoriaId": 4,
+      "id": 30
+    },
+    {
+      "titulo": "MANHUNT: UNABOMBER Official Trailer (HD)",
+      "url": "https://www.youtube.com/watch?v=nsd_LMDlzhI",
+      "categoriaId": 4,
+      "id": 31
+    },
+    {
+      "titulo": "The Sinner | Trailer da temporada 01 | Legendado (Brasil) [HD]",
+      "url": "https://www.youtube.com/watch?v=cuIEEBzMhtQ",
+      "categoriaId": 4,
+      "id": 32
+    },
+    {
+      "titulo": "Trailer de Marco Polo - Netflix",
+      "url": "https://www.youtube.com/watch?v=bhgMdtCu5Tw",
+      "categoriaId": 4,
+      "id": 33
+    },
+    {
+      "titulo": "Black Mirror Trailer - Legendado",
+      "url": "https://www.youtube.com/watch?v=1w8LBG2qbqc",
+      "categoriaId": 4,
+      "id": 34
+    }
+  ]
 }
